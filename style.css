@@ -1,0 +1,46 @@
+h2{
+    color: darkslategray;
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    font-family: "Gubbi", serif;
+    color: tomato;
+    margin: 20px;
+    font-size: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: lightblue;
+}
+.navbar .logo a{
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+    list-style: none;
+    margin:0 8px;
+}
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Kinnari", serif;
+    color: blue;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: palegreen;
+    text-decoration: underline;
+}

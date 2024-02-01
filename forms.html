@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        .input-section{
+            padding:6px;
+            margin-top: 6px;
+        }
+        .input-section input{
+            background-color: lightcyan;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            border-bottom: 1px solid palegreen;
+        }
+        #btn{
+            paddding: 6px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            /*background-color: lightcyan;*/
+        }
+        #btn input{
+            background-color: lightcyan;
+            border-bottom: 1px solid palegreen;
+        }
+        h1{
+            color: firebrick;
+            text-align: center;
+            text-size: 20px;
+            text-decoration: underline;
+        }
+        h5{
+            color: black;
+            text-decoration: double underline;
+            font-family: math;
+        }
+        p{
+            font-family: cursive;
+            color: black;
+            padding: 6px;
+        }
+        body{
+            background-color: peachpuff;
+        }
+        form {
+            margin: 20px;
+            width: 500px;
+            background-color: floralwhite;
+            padding: 60px;
+            background-image: url("butterflies.jpg");
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <h1>Employee Detail</h1>
+    <h5>BIO DATA</h5>
+    <div class="input-section">
+             <label for="">Name</label>
+             <input type="text" placeholder="name"><br><br>
+    </div>
+    <div class="input-section">
+             <label for="">Mobile No.</label>
+             <input type="text" placeholder="mobile"><br><br>
+    </div>
+    <label for="">Gender</label>
+Male: <input type="radio" name="gender" value="Male">
+    Female:<input type="radio" name="gender" checked value="Female"><br><br>
+    <label for="">Hobbies:</label>
+    Dancing: <input type="checkbox" name="hobby" value="Dancing"  checked>
+    Singing: <input type="checkbox" name="hobby" value="Singing">
+    Soccer: <input type="checkbox" name="hobby" value="Soccer"><br><br>
+    <label for="">County</label>
+    <select name="dropdown" id="">
+    <option value="">Nairobi</option>
+    <option value="">Kakamega</option>
+    <option value="">Machakos</option>
+    <option value="">Muranga</option>
+    <option value="">Kirinyaga</option>
+    <option value="">Wajir</option>
+    <option value="">Mandera</option>
+    </select><br><br>
+    <p>Data entry complete</p>
+            <div id="btn">
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+            </div>
+</form>
+</body>
+</html>
